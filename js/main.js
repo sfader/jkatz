@@ -1,10 +1,9 @@
 function wagTail()
   {
-    if (document.getElementById("kat").src=="/ck1.png"){
-      document.getElementById("kat").src="../ck2.png";
-    }
-    else
-    {
-      document.getElementById("kat").src="../ck1.png";
-    }
+      document.getElementById("kat").src="../jkatz/ck2.png";
+      window.setTimeout(wagTailBack,500);
+  }
+
+  function wagTailBack(){
+    document.getElementById("kat").src="../jkatz/ck1.png";
   }
